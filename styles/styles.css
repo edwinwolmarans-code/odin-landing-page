@@ -45,6 +45,8 @@ button {
     color: white;
     font-size: 16px;
     width: 150px;
+    height: 36px;
+    margin-top: 10px;
 }
 
 .image-placeholder {
@@ -54,15 +56,8 @@ button {
     text-align: center;
     color: #E5E7EB;
     font-size: 18px;
+    align-content: center;
 }
-
-div {
-    border: red solid 1px;
-}
-
-/* .header {
-    display: flex;
-} */
 
 .menu {
     display: flex;
@@ -73,4 +68,15 @@ div {
     display: flex;
     gap: 20px;
     align-items: center;
+}
+
+.hero-section {
+    margin: 50px 0px 50px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-left {
+    width: 50%;
+    padding-right: 30px;
 }
