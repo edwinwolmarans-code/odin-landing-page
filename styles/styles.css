@@ -25,7 +25,7 @@ h1 {
 }
 
 .header-links, .subtext {
-    color: #b4b6ba;
+    color: #E5E7EB;
     font-size: 18px;
 }
 
@@ -148,3 +148,26 @@ button {
 
 /* section 4 */
 
+.call-to-action-container {
+    margin: 80px 150px;
+}
+
+.call-to-action {
+    height: 100px;
+    padding: 30px 50px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.call{
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.call-to-action .button {
+    border-color: white;
+}
