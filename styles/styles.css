@@ -85,8 +85,40 @@ button {
 
 /* section 2 */
 
-.box{
-    border: #3882F6 solid 3px;
+.section-2 {
+    padding: 15px 170px;
+}
+
+.display-box {
+    display: flex;
+    padding-bottom: 80px;
+    justify-content: space-between;
+}
+
+.box {
+    border: #3882F6 solid 4px;
+    border-radius: 20px;
     width: 200px;
     height: 200px;
+}
+
+.section-2-heading {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.quarter {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.section-2 .subtext {
+    width: 200px;
+    text-align: center;
 }
