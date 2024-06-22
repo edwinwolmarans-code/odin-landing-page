@@ -86,13 +86,14 @@ button {
 /* section 2 */
 
 .section-2 {
-    padding: 15px 200px;
+    padding: 15px 170px;
 }
 
 .display-box {
     display: flex;
     padding-bottom: 80px;
     justify-content: space-between;
+    gap: 40px;
 }
 
 .box {
@@ -100,6 +101,7 @@ button {
     border-radius: 20px;
     width: 200px;
     height: 200px;
+    margin-bottom: 5px;
 }
 
 .section-2-heading {
@@ -127,7 +129,7 @@ button {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 150px 200px;
+    padding: 150px 170px;
 }
 
 .quote-text {
@@ -143,3 +145,6 @@ button {
     font-size: 18px;
     font-weight: bold;
 }
+
+/* section 4 */
+
